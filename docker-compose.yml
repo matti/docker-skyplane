@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    volumes:
+      - root:/root
+      - ./private:/private
+
+volumes:
+  root:
